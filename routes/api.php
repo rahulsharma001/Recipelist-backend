@@ -22,3 +22,11 @@ Route::get('articles/{article}', 'ArticleController@show');
 Route::post('articles', 'ArticleController@store');
 Route::put('articles/{article}', 'ArticleController@update');
 Route::delete('articles/{article}', 'ArticleController@delete');
+
+
+Route::get('submitRecipe', 'RecipeController@index');
+Route::get('submitRecipe/{id}', 'RecipeController@show');
+Route::post('submitRecipe','RecipeController@store');
+
+
+
