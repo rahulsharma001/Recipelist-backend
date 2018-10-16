@@ -28,5 +28,7 @@ Route::get('submitRecipe', 'RecipeController@index');
 Route::get('submitRecipe/{id}', 'RecipeController@show');
 Route::post('submitRecipe','RecipeController@store');
 
+Route::post('submitComment','CommentController@store');
+
 
 
