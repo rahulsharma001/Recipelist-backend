@@ -35,6 +35,7 @@ class RecipeController extends Controller
             $responseArr['errorCode']=0;
             $responseArr['errorMessage']='Successful';
             $responseArr['data']=$result;
+        
         }else{
             $responseArr['errorCode']=1;
             $responseArr['errorMessage']='Unsuccessful';
